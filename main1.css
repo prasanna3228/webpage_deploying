@@ -1,0 +1,135 @@
+.service-bg {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.ngo {
+  padding-top: 50px;
+  opacity: 0.49;
+  font-family: sans-serif;
+  font-size: 60px;
+  color: black;
+  line-height: 22px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .ngo {
+    font-size: 32px;
+    color: black;
+  }
+}
+
+.vision {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 34px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Mont";
+  text-align: center;
+}
+.tm {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #171717;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
+}
+.tm1 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #171717;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.ngo1 {
+  padding-top: 50px;
+  opacity: 0.35;
+  font-family: sans-serif;
+  color: black;
+  line-height: 22px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 110px;
+  text-transform: uppercase;
+  color: #d2cdcd;
+  font-weight: bold;
+  font-family: "Mont";
+  text-align: center;
+  /* border: 1px solid #dbdbdb; */
+}
+.vision1 {
+  font-size: 34px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Mont";
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .ngo1 {
+    opacity: 0.35;
+    font-family: sans-serif;
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 2px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #d2cdcd;
+    font-weight: bold;
+    font-family: "Mont";
+    text-align: center;
+    /* border: 1px solid #dbdbdb; */
+  }
+  .vision1 {
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Mont";
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .ngo1 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .ngo1 {
+    font-size: 65px;
+  }
+}
+.box-size {
+  width: 26%;
+  height: 55vh;
+  padding-top: 35px;
+}
+
+.service-img1 {
+  background-image: url("project/Layer\ 39.png");
+  width: 26%;
+  height: 65vh;
+  background-size: cover;
+  position: absolute;
+  margin-top: 25px;
+  /* top: 1000px;s */
+}

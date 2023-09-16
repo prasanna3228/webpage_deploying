@@ -1,0 +1,210 @@
+.video-bg {
+  width: 100%;
+  height: 130vh;
+  background-color: #191919;
+}
+.stories {
+  padding-top: 30px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fffefe;
+  font-weight: bold;
+  font-family: "Mont";
+  text-align: center;
+}
+
+.v-img {
+  background-image: url("video/Layer\ 56.png");
+  width: 40%;
+  height: 45vh;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .v-img {
+    background-image: url("video/Layer\ 56.png");
+    width: 45%;
+    height: 30vh;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .v-img {
+    background-image: url("video/Layer\ 56.png");
+    width: 45%;
+    height: 30vh;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+.v-img1 {
+  background-image: url("video/Layer\ 57.png");
+  width: 40%;
+  height: 45vh;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .v-img1 {
+    background-image: url("video/Layer\ 57.png");
+    width: 45%;
+    height: 30vh;
+    background-size: cover;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .v-img1 {
+    background-image: url("video/Layer\ 57.png");
+    width: 45%;
+    height: 30vh;
+    background-size: cover;
+  }
+}
+
+.play-bg-yellow {
+  width: 57px;
+  height: 80px;
+  background-color: #fecd03;
+  /* margin-top: 60px; */
+}
+.play-bg1 {
+  width: 57px;
+  height: 80px;
+  background-color: black;
+  opacity: 0.8;
+}
+.play-bg-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+}
+.play-h1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Mont";
+}
+
+.forgive-h1 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Mont";
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.play-icon-a {
+  padding-top: 20px;
+}
+
+.padding {
+  margin-left: 20px;
+}
+
+.make-bg {
+  background-image: url("video/Layer\ 53.png");
+  width: 100%;
+  min-height: 20vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.make-h1 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Mont";
+}
+@media (max-width: 576px) {
+  .make-h1 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .make-h1 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .make-h1 {
+    font-size: 14px;
+  }
+}
+
+.d-button {
+  background-color: #fecd03;
+  width: 150px;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 3px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #131313;
+  font-family: "Mont";
+  text-align: center;
+}
+.button-align {
+  padding-left: 30px;
+}
+
+.make-align {
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.v-line {
+  width: 1px;
+  height: 12px;
+  border-left: 1px solid #898989;
+  margin-top: 23px;
+  color: #898989;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-left: 2px;
+}
+
+.v-line-h4 {
+  margin-top: 18px;
+  margin-left: 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #898989;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+@media (max-width: 576px) {
+  .v-line-h4 {
+    font-size: 4px;
+  }
+}
+
+.cell-bg {
+  /* opacity: 0.039; */
+  width: 200px;
+  height: 90px;
+  background-color: rgb(48, 47, 47);
+}
+
+.test {
+  padding-left: 50px;
+}
